@@ -177,3 +177,6 @@ STORAGES = {
     },
 # cierre del diccionario STORAGES
 }
+
+# LOGIN_URL: a donde manda @login_required a quien no ha iniciado sesion
+LOGIN_URL = '/admin/login/'
